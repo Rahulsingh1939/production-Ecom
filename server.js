@@ -17,6 +17,7 @@ dotenv.config();
 connectDB();
 
 //esmodule FIx
+const __filename = fileURLToPath(import.meta.url);
 
 //rest object
 const app = express();
